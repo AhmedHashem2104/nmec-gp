@@ -5,18 +5,25 @@
         <div class="swiper-wrapper text-left">
           
         <?php
-        for($i = 0 ; $i < 5 ; $i++){
+        $sliders = array(
+        '1.jpg',
+        '2.jpg',
+        '3.jpg',
+        '4.jpg',
+        '5.jpg'
+        );
+        foreach($sliders as $slider){
           ?>
-          <div class="swiper-slide context-dark" data-slide-bg="images/gallery-image-3-1200x800-original.jpg">
+          <div class="swiper-slide context-dark" data-slide-bg="imgs/slider/<?php echo $slider; ?>">
             <div class="swiper-slide-caption section-md">
-              <div class="container">
+              <!-- <div class="container">
                 <div class="row">
                   <div class="col-md-10">
                     <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0">Enjoy the Best Destinations with Our Travel Agency</h6>
                     <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100"><span>Explore</span><span class="font-weight-bold"> The World</span></h2><a class="button button-default-outline button-ujarak" href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Get in touch</a>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
           <?php
@@ -27,18 +34,32 @@
         <div class="swiper-pagination"></div>
       </section>
       <!-- Section Box Categories-->
-      <section class="section section-lg section-top-1 bg-gray-4">
+      <section class="section section-lg section-top-1 bg-gray-4" id="hotels">
         <div class="container offset-negative-1">
           <div class="box-categories cta-box-wrap">
             <div class="box-categories-content">
               <div class="row justify-content-center">
-                <?php
-                for($i = 0 ; $i < 3 ; $i++){
+              <?php
+        $hotels = array(
+          array(
+            'title' => 'InterContinental Cairo Semiramis',
+            'img' => 'hotel-1.jpg'
+          ),
+          array(
+            'title' => 'Kempinski Nile Hotel Garden City Cairo',
+            'img' => 'hotel-2.jpg'
+          ),
+          array(
+            'title' => 'Four Seasons Hotel Cairo at the First Residence',
+            'img' => 'hotel-3.jpg'
+          ),
+        );
+                foreach($hotels as $hotel){
                   ?>
                   <div class="col-md-4 wow fadeInDown col-9" data-wow-delay=".2s">
                   <ul class="list-marked-2 box-categories-list">
-                    <li><a href="#"><img src="images/cta-1-368x420.jpg" alt="" width="368" height="420"/></a>
-                      <h5 class="box-categories-title">Balloon Flights</h5>
+                    <li><a href="#"><img src="imgs/hotels/<?php echo $hotel['img']; ?>" alt="" style="width:100%;height:220px;" /></a>
+                      <h5 class="box-categories-title"><?php echo $hotel['title']; ?></h5>
                     </li>
                   </ul>
                 </div>
@@ -47,9 +68,13 @@
                 ?>
               </div>
             </div>
-          </div><a class="link-classic wow fadeInUp" href="#">Other Hotels<span></span></a>
+          </div>
+          <!-- <a class="link-classic wow fadeInUp" href="#">Other Hotels<span></span></a> -->
           <!-- Owl Carousel-->
         </div>
+        <br>
+        <iframe src="imgs/slider/video.mp4" style="width:60%;height:555px;border:none;"></iframe>
+
       </section>
       <!-- Discover New Horizons-->
       <section class="section section-sm section-first bg-default text-md-left">
@@ -112,42 +137,50 @@
         <div class="container">
           <h3 class="oh-desktop"><span class="d-inline-block wow slideInDown">Hot Hotels</span></h3>
           <div class="row row-sm row-40 row-md-50">
-            <div class="col-sm-6 col-md-12 wow fadeInRight">
+          <?php
+        $hotelsPrice = array(
+          array(
+            'title' => 'Sofitel Cairo Nile El Gezirah',
+            'img' => 'hotel-4.jpg',
+            'description' => "On the southern tip of Gezirah Island, the hotel is a corner of paradise in central Cairo, minutes from Cairo’s business districts. Discover a haven of peace during a vacation in Egypt, and a comfortable base to rest after a successful day of business. Relax by the pool, pamper yourself in Sofitel SPA, wine and dine in our international restaurants and bars. Surrender to luxury and come for a day, a weekend, a week…or more.",
+            'price' => '2,687 EGP'
+          ),
+          array(
+            'title' => 'Fairmont Nile City',
+            'img' => 'hotel-5.jpg',
+            'description' => "A melting pot of history and diversity, the city of Cairo is ideal for both business and leisure. Like the city itself, Fairmont Nile City offers a delightful series of contrasts, combining advanced technology and modern design with local flavors and flair. With sweeping panoramas of the river Nile and the Pyramids in the distance, Cairo’s beauty and history are always in sight from your luxury accommodation.",
+            'price' => '4,713 EGP'
+          ),
+          array(
+            'title' => 'Grand Nile Tower',
+            'img' => 'hotel-6.jpg',
+            'description' => "A haven within the cosmopolitan vibrant city of Cairo.One of Cairo's most luxurious hotels,Grand Nile Tower is a family hotel directly situated on the magnificent Nile river with a prime location in central Cairo,close to many cultural and tourist 's attractions.This stunning Kid-friendly Hotel offers you the finest service and experiences,elegantly designed accommodation.",
+            'price' => '1,940 EGP'
+          ),
+        );
+        foreach($hotelsPrice as $hotelPrice){
+          ?>
+          <div class="col-sm-6 col-md-12 wow fadeInRight">
               <!-- Product Big-->
               <article class="product-big">
                 <div class="unit flex-column flex-md-row align-items-md-stretch">
-                  <div class="unit-left"><a class="product-big-figure" href="#"><img src="images/product-big-1-600x366.jpg" alt="" width="600" height="366"/></a></div>
+                  <div class="unit-left"><a class="product-big-figure" href="#"><img src="imgs/hotels/<?php echo $hotelPrice['img']; ?>" alt="" width="600" height="366"/></a></div>
                   <div class="unit-body">
                     <div class="product-big-body">
-                      <h5 class="product-big-title"><a href="#">Benidorm, Spain</a></h5>
+                      <h5 class="product-big-title"><a href="#"><?php echo $hotelPrice['title']; ?></a></h5>
                       <div class="group-sm group-middle justify-content-start">
                         <div class="product-big-rating"><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star_half"></span></div><a class="product-big-reviews" href="#">4 customer reviews</a>
                       </div>
-                      <p class="product-big-text">Benidorm is a buzzing resort with a big reputation for beach holidays. Situated in sunny Costa Blanca, the town is one of the original Spanish beach resorts...</p><a class="button button-black-outline button-ujarak" href="#">Buy This Tour</a>
-                      <div class="product-big-price-wrap"><span class="product-big-price">$790</span></div>
+                      <p class="product-big-text"><?php echo $hotelPrice['description']; ?></p><a class="button button-black-outline button-ujarak" href="booking.php?service=hotels">Book now</a>
+                      <div class="product-big-price-wrap"><span class="product-big-price"><?php echo $hotelPrice['price']; ?></span></div>
                     </div>
                   </div>
                 </div>
               </article>
             </div>
-            <div class="col-sm-6 col-md-12 wow fadeInLeft">
-              <!-- Product Big-->
-              <article class="product-big">
-                <div class="unit flex-column flex-md-row align-items-md-stretch">
-                  <div class="unit-left"><a class="product-big-figure" href="#"><img src="images/product-big-2-600x366.jpg" alt="" width="600" height="366"/></a></div>
-                  <div class="unit-body">
-                    <div class="product-big-body">
-                      <h5 class="product-big-title"><a href="#">Mauritius Island, Africa</a></h5>
-                      <div class="group-sm group-middle justify-content-start">
-                        <div class="product-big-rating"><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star_half"></span></div><a class="product-big-reviews" href="#">5 customer reviews</a>
-                      </div>
-                      <p class="product-big-text">The beautiful and inviting island nation of Mauritius is an ideal ‘flop and drop’ at the conclusion of your safari. Indulge in the delightful scents of the fragrant...</p><a class="button button-black-outline button-ujarak" href="#">Buy This Tour</a>
-                      <div class="product-big-price-wrap"><span class="product-big-price">$890</span></div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </div>
+          <?php
+        }
+        ?>
           </div>
         </div>
       </section>

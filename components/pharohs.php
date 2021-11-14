@@ -85,7 +85,7 @@ array(
 
 ?>
 
-<section class="section section-sm section-top-0 section-fluid section-relative bg-gray-4">
+<section class="section section-sm section-top-0 section-fluid section-relative bg-gray-4" id="pharoahs">
         <div class="container-fluid">
           <h6 class="gallery-title" style="margin-top:30px;background-color:black;color:white;font-size:25px;">Pharoaphs</h6>
           <!-- Owl Carousel-->
