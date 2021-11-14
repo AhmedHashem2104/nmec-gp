@@ -10,7 +10,7 @@ session_start(); ?>
         <div class="container">
           <article class="title-classic">
             <div class="title-classic-title">
-              <h3>Book a ticket</h3>
+              <h3>Book a hotel</h3>
             </div>
           </article>
           <br>
