@@ -1,3 +1,5 @@
+<?php ob_start();
+session_start(); ?>
 <?php require('./layouts/header.php'); ?>
 <?php require('./layouts/nav.php'); ?>
 
@@ -11,6 +13,7 @@
               <h3>Book a ticket</h3>
             </div>
           </article>
+          <br>
           <form method="post" action="bookingform-hotel.php">
             <div class="row row-14 gutters-14">
               <div class="col-md-4">
@@ -77,7 +80,7 @@
               
                 if(isset($_SESSION['message'])){
                     ?>
-                    <div><?php echo $_SESSION['message']; ?></div>
+                    <div style="width:100%;background-color:green;color:white;height:50px;padding:5px;font-weight:bold;display:flex;justify-content:center;align-items:center;border-radius:5px;"><?php echo $_SESSION['message']; ?></div>
                     <?php
                     session_destroy();
                 }

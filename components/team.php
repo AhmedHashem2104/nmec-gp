@@ -11,7 +11,7 @@ $team = array(
     ),
     array(
         'name' => 'Tasneem Hamed',
-        'img' => ''
+        'img' => 'tasneem-team.jpg'
     ),
     array(
         'name' => 'Saad Essam',
