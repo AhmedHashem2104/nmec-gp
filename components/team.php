@@ -3,11 +3,11 @@
 $team = array(
     array(
         'name' => 'Ahmed Samir',
-        'img' => ''
+        'img' => 'samir-team.jpg'
     ),
     array(
         'name' => 'Omar El Dbeky',
-        'img' => ''
+        'img' => 'dbeky-team.jpg'
     ),
     array(
         'name' => 'Tasneem Hamed',
@@ -15,11 +15,11 @@ $team = array(
     ),
     array(
         'name' => 'Saad Essam',
-        'img' => ''
+        'img' => 'saad-team.jpg'
     ),
     array(
         'name' => 'Ahmed Maged',
-        'img' => ''
+        'img' => 'maged-team.jpg'
     )
     );
 
@@ -34,7 +34,7 @@ $team = array(
                 <div class="col-sm-6 col-md-5 col-lg-2">
               <!-- Team Modern-->
               <article class="team-modern">
-                <div class="team-modern-header"><a class="team-modern-figure" href="#"><img class="img-circles" src="imgs/<?php echo $member['img']; ?>" alt="" width="118" height="118"/></a>
+                <div class="team-modern-header"><div class="team-modern-figure"><img class="img-circles" src="imgs/team/<?php echo $member['img']; ?>" alt="" width="118" height="118"/></div>
                   <svg x="0px" y="0px" width="270px" height="70px" viewbox="0 0 270 70" enable-background="new 0 0 270 70" xml:space="preserve">
                     <g>
                       <path fill="#161616" d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z"></path>

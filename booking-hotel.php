@@ -11,7 +11,7 @@
               <h3>Book a ticket</h3>
             </div>
           </article>
-          <form method="post" action="bookingform.php">
+          <form method="post" action="bookingform-hotel.php">
             <div class="row row-14 gutters-14">
               <div class="col-md-4">
                 <div class="form-wrap">

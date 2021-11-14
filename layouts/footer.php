@@ -46,7 +46,7 @@
                   <div class="wow slideInLeft" data-wow-delay="0s">
                     <h6 class="text-spacing-100 text-uppercase">Booking</h6>
 
-                    <div class="group-md group-middle justify-content-sm-start"><a class="button button-lg button-primary button-ujarak" href="#">Book Hotel</a><a class="button button-lg button-primary button-ujarak" href="#">Book Ticket</a></div>
+                    <div class="group-md group-middle justify-content-sm-start"><a class="button button-lg button-primary button-ujarak" href="booking-hotel.php">Book Hotel</a><a class="button button-lg button-primary button-ujarak" href="#">Book Ticket</a></div>
 
                   </div>
                 </div>

@@ -6,7 +6,8 @@ if(isset($_POST['submit'])){
     $phone = $_POST['phone'];
     $hotel = $_POST['hotel'];
 
-    $message = "Welcome to NMEC Application <br>
+    $message = "
+    Welcome to NMEC Application <br>
     Your request for booking is done <br>
     Hotel: $hotel <br>
     Name: $name <br>
@@ -17,11 +18,11 @@ if(isset($_POST['submit'])){
 
     $_SESSION['message'] = 'Request is sent, you will get mail as soon as to confirm your request.';
 
-    header("Loction: booking.php");
+    header("Loction: booking-hotel.php");
 
 }
 else{
-    header("Loction: booking.php");
+    header("Loction: booking-hotel.php");
 }
 
 ?>
