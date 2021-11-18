@@ -38,10 +38,10 @@
               <div class="rd-navbar-main">
                 <div class="rd-navbar-nav-wrap">
                   <ul class="list-inline list-inline-md rd-navbar-corporate-list-social">
-                    <li><a class="icon fa fa-facebook" href="#"></a></li>
-                    <li><a class="icon fa fa-twitter" href="#"></a></li>
-                    <li><a class="icon fa fa-google-plus" href="#"></a></li>
-                    <li><a class="icon fa fa-instagram" href="#"></a></li>
+                    <li><a class="icon fa fa-facebook" href="https://www.facebook.com/nmec.gov.eg/"></a></li>
+                    <li><a class="icon fa fa-twitter" href="https://twitter.com/NMEC17?s=08"></a></li>
+                    <li><a class="icon fa fa-youtube" href="https://www.youtube.com/channel/UCgNlHKqoTF86baOI8xVl4eQ"></a></li>
+                    <li><a class="icon fa fa-instagram" href="https://www.instagram.com/nmec.eg/"></a></li>
                   </ul>
                   <!-- RD Navbar Nav-->
                   <ul class="rd-navbar-nav">
@@ -50,6 +50,10 @@
                     <li class="rd-nav-item"><a class="rd-nav-link" href="#hotels">Hotels</a>
                     </li>
                     <li class="rd-nav-item"><a class="rd-nav-link" href="#pharoahs">Pharoaphs</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="photos.php">Photos</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="videos.php">Videos</a>
                     </li>
                     <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.php">Contact Us</a>
                     </li>

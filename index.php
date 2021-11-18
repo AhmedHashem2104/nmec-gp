@@ -8,9 +8,17 @@
         $sliders = array(
         '1.jpg',
         '2.jpg',
-        '3.jpg',
+        // '3.jpg',
         '4.jpg',
-        '5.jpg'
+        // '5.jpg',
+        '6.jpg',
+        '7.jpg',
+        '8.jpg',
+        '9.jpg',
+        '10.jpg',
+        '11.jpg',
+        '12.jpg',
+        '13.jpg',
         );
         foreach($sliders as $slider){
           ?>
@@ -74,7 +82,7 @@
         </div>
         <br>
         <iframe src="imgs/slider/video.mp4" style="width:60%;height:555px;border:none;"></iframe>
-
+                
       </section>
       <!-- Discover New Horizons-->
       <section class="section section-sm section-first bg-default text-md-left">
@@ -97,11 +105,11 @@
                   <div class="tab-content">
                     <div class="tab-pane fade show active" id="tabs-7-1">
                       <p>NMEC is the first museum in the Arab world focusing on the earliest civilization in history - the ancient Egyptian civilization. It is the only museum in Egypt that offers the visitor a general overview of all the different historical periods that encompass Egypt. This has been approached as a layered cumulative product regarding the interaction of the Egyptian people with their land throughout history. This has been created via a multidisciplinary thematic approach designed to highlight Egypt’s tangible and intangible heritage. In addition, NMEC is an important cultural, educational, recreational, and research center for local and international visitors and scholars.</p>
-                      <div class="group-md group-middle"><a class="button button-secondary button-pipaluk" href="contact-us.html">Get in Touch</a><a class="button button-black-outline button-md" href="about.html">Read More</a></div>
+                      <!-- <div class="group-md group-middle"><a class="button button-secondary button-pipaluk" href="contact-us.html">Get in Touch</a><a class="button button-black-outline button-md" href="about.html">Read More</a></div> -->
                     </div>
                     <div class="tab-pane fade" id="tabs-7-2">
                       <p>Presenting the tangible and intangible Egyptian heritage within a cultural framework that allows visitors from different backgrounds to easily relate to the objects in the display while acquiring a deeper understanding of the Egyptian culture in a welcoming and exciting environment. Moreover, NMEC aims at becoming a unique cultural hub in the region mixing antiquities with other aspects of culture including music and art.</p>
-                      <div class="group-md group-middle"><a class="button button-secondary button-pipaluk" href="contact-us.html">Get in Touch</a><a class="button button-black-outline button-md" href="about.html">Read More</a></div>
+                      <!-- <div class="group-md group-middle"><a class="button button-secondary button-pipaluk" href="contact-us.html">Get in Touch</a><a class="button button-black-outline button-md" href="about.html">Read More</a></div> -->
                     </div>
                     <div class="tab-pane fade" id="tabs-7-3">
                       <p>
@@ -121,7 +129,7 @@
                       </ul>
                     </div>
                       </p>
-                      <div class="group-md group-middle"><a class="button button-black-outline button-md" href="about.php">Read More</a></div>
+                      <!-- <div class="group-md group-middle"><a class="button button-black-outline button-md" href="about.php">Read More</a></div> -->
                     </div>
                   </div>
                 </div>
