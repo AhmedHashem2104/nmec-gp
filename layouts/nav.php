@@ -27,7 +27,7 @@
                     <li>
                       <div class="unit unit-spacing-xs">
                         <div class="unit-left"><span class="icon fa fa-phone"></span></div>
-                        <div class="unit-body"><a class="link-phone" target="_blank" href="tel:+201116063026">+201116063026</a></div>
+                        <div class="unit-body"><a class="link-phone" target="_blank" href="tel:+20227412273">+20227412273</a></div>
                       </div>
                     </li>
                   </ul><a class="button button-md button-default-outline-2 button-ujarak" href="#booking">Book now</a>
