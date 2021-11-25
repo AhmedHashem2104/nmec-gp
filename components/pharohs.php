@@ -100,7 +100,7 @@ array(
               <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="imgs/<?php echo $pharoh['img']; ?>" data-lightgallery="item"><img src="images/gallery-image-1-270x195.jpg" alt="" width="270" height="195"/></a>
               </div>
               <h4><?php echo $pharoh['name']; ?></h4>
-              <a href="index.php"><button class="btn btn-primary" style="margin-top:30px;">Read more</button></a>
+              <a href="pharoah.php?key=<?php echo $pharoh['name']; ?>"><button class="btn btn-primary" style="margin-top:30px;">Read more</button></a>
 
             </article>
                 <?php

@@ -179,7 +179,7 @@
                       <div class="group-sm group-middle justify-content-start">
                         <div class="product-big-rating"><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star_half"></span></div><a class="product-big-reviews" href="#">4 customer reviews</a>
                       </div>
-                      <p class="product-big-text"><?php echo $hotelPrice['description']; ?></p><a class="button button-black-outline button-ujarak" href="booking.php?service=hotels">Book now</a>
+                      <p class="product-big-text"><?php echo $hotelPrice['description']; ?></p><a class="button button-black-outline button-ujarak" href="booking-hotel.php">Book now</a>
                       <div class="product-big-price-wrap"><span class="product-big-price"><?php echo $hotelPrice['price']; ?></span></div>
                     </div>
                   </div>

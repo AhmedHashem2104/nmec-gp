@@ -47,9 +47,9 @@
                   <ul class="rd-navbar-nav">
                     <li class="rd-nav-item active"><a class="rd-nav-link" href="index.php">Home</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="#hotels">Hotels</a>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="index.php#hotels">Hotels</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="#pharoahs">Pharoaphs</a>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="index.php#pharoahs">Pharoaphs</a>
                     </li>
                     <li class="rd-nav-item"><a class="rd-nav-link" href="photos.php">Photos</a>
                     </li>
